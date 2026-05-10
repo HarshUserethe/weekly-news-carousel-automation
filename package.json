@@ -1,5 +1,5 @@
 {
-  "name": "bhopal-news-carousel",
+  "name": "lostinbhopal-node",
   "version": "1.0.0",
   "main": "generate.js",
   "scripts": {
@@ -10,6 +10,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "puppeteer": "^24.43.0"
+    "puppeteer": "^24.15.0"
   }
 }
