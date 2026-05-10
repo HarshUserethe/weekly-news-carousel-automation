@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Carousel Card – 1080×1350</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  /* ── Outer page ── */
+  html, body {
+    width: 100%;
+    min-height: 100vh;
+    background: #e8edf3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* Wrapper that scales the iframe on small screens */
+  .frame-wrap {
+    width: 1080px;
+    height: 1350px;
+     
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
+  iframe {
+   width: 1456px;
+   height: 1832px;
+    border: none;
+    display: block;
+  }
+</style>
+</head>
+<body>
+
+<div class="frame-wrap">
+  <iframe id="card" srcdoc="
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'/>
+<link href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;display=swap' rel='stylesheet'/>
+<style>
+  *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+
+  html, body {
+    width: 1080px;
+    height: 1350px;
+    overflow: hidden;
+    background: #ffffff;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* ── IMAGE SECTION ── */
+  .img-section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .img-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 20%;
+    display: block;
+  }
+
+  /* thin gradient fade at bottom so white content blends */
+  .img-section::after {
+    content: '';
+    position: absolute;
+    inset: auto 0 0 0;
+    height: 80px;
+    background: linear-gradient(to bottom, transparent, rgba(255,255,255,0.10));
+    pointer-events: none;
+  }
+
+  /* ── CONTENT SECTION ── */
+  .content {
+    width: 1080px;
+    height: 620px;
+    background: linear-gradient(
+    to top,
+    rgba(255,255,255,1) 0%,
+    rgba(255, 255, 255, 0.9) 50%,
+    rgba(255,255,255,0) 100%
+);
+    position: absolute;
+    top:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:50px
+
+  }
+
+    .content-internal{
+    background: white;
+    padding:30px;
+    border-radius:30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  margin-top: -10%
+  }
+
+  /* Education badge */
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    align-self: flex-start;
+    gap: 8px;
+    background: #f0fdf4;
+    border: 2px solid #86efac;
+    color: #16a34a;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 9px 26px;
+    border-radius: 100px;
+    margin-bottom: 30px;
+    letter-spacing: 0.2px;
+    line-height: 1;
+  }
+
+  /* Headline */
+  h1 {
+    font-size: 58px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.18;
+    letter-spacing: -1.2px;
+    margin-bottom: 26px;
+    max-width: 960px;
+  }
+
+  /* Body text */
+  .summary {
+    font-size: 27px;
+    font-weight: 400;
+    color: #64748b;
+    line-height: 1.68;
+    margin-bottom: 40px;
+    max-width: 950px;
+  }
+
+  /* CTA button */
+  .cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    background: #0f172a;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 18px 36px 18px 24px;
+    border-radius: 100px;
+    letter-spacing: 0.1px;
+    align-self: flex-start;
+  }
+
+  .cta .icon {
+    width: 46px;
+    height: 46px;
+    background: #1e293b;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .cta .icon svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  /* Footer handle */
+  .handle {
+    position: absolute;
+    bottom: 44px;
+    right: 60px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #94a3b8;
+    letter-spacing: 0.4px;
+  }
+
+</style>
+</head>
+<body>
+
+  <!-- Photo -->
+  <div class='img-section'>
+    <img
+      src={{IMAGE}}
+      alt='Students celebrating results'
+    />
+  </div>
+
+  <!-- Card content -->
+<div class='content'>
+      <div class='content-internal'>
+
+    <div class='badge'>{{CATEGORY}}</div>
+
+    <h1>{{HEADLINE}}</h1>
+
+    <p class='summary'>
+     {{SUMMARY}}
+    </p>
+
+    <div class='cta'>
+      <div class='icon'>
+        <svg viewBox='0 0 24 24' fill='none' stroke='#fff' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'>
+          <path d='M5 12h14M13 6l6 6-6 6'/>
+        </svg>
+      </div>
+      Swipe for more
+    </div>
+
+    <div class='handle'>@lostinbhopal</div>
+
+  </div>
+</div>
+
+</body>
+</html>
+"></iframe>
+</div>
+
+</body>
+</html>
