@@ -1,0 +1,380 @@
+{"level":"info","message":"Starting news fetch for Bhopal","service":"news-carousel","timestamp":"2026-05-10 11:59:35"}
+{"level":"info","message":"Fetching news from 2026-05-04 to 2026-05-10","service":"news-carousel","timestamp":"2026-05-10 11:59:35"}
+{"level":"warn","message":"NEWS_API_KEY not valid. Using mock data.","service":"news-carousel","timestamp":"2026-05-10 11:59:35"}
+{"level":"info","message":"Found 15 unique articles with images","service":"news-carousel","timestamp":"2026-05-10 11:59:35"}
+{"level":"info","message":"Saved 5 raw articles to raw-news.json","service":"news-carousel","timestamp":"2026-05-10 11:59:35"}
+{"level":"info","message":"Starting news summarization","service":"news-carousel","timestamp":"2026-05-10 11:59:37"}
+{"level":"warn","message":"OPENAI_API_KEY not valid. Using mock summarization.","service":"news-carousel","timestamp":"2026-05-10 11:59:37"}
+{"level":"info","message":"Saved 5 processed articles to processed-news.json","service":"news-carousel","timestamp":"2026-05-10 11:59:37"}
+{"level":"info","message":"Starting slide generation","service":"news-carousel","timestamp":"2026-05-10 11:59:40"}
+{"level":"info","message":"Generating slide 1/5","service":"news-carousel","timestamp":"2026-05-10 11:59:41"}
+{"level":"info","message":"Generating slide 2/5","service":"news-carousel","timestamp":"2026-05-10 11:59:47"}
+{"level":"info","message":"Generating slide 3/5","service":"news-carousel","timestamp":"2026-05-10 11:59:51"}
+{"level":"info","message":"Generating slide 4/5","service":"news-carousel","timestamp":"2026-05-10 11:59:56"}
+{"level":"info","message":"Generating slide 5/5","service":"news-carousel","timestamp":"2026-05-10 11:59:58"}
+{"level":"info","message":"Successfully generated 5 slides in output/ directory","service":"news-carousel","timestamp":"2026-05-10 12:00:01"}
+{"level":"info","message":"Starting news fetch for Bhopal","service":"news-carousel","timestamp":"2026-05-10 12:08:32"}
+{"level":"info","message":"Fetching news from 2026-05-04 to 2026-05-10","service":"news-carousel","timestamp":"2026-05-10 12:08:32"}
+{"level":"warn","message":"NEWS_API_KEY not valid. Using mock data.","service":"news-carousel","timestamp":"2026-05-10 12:08:32"}
+{"level":"info","message":"Found 15 unique articles with images","service":"news-carousel","timestamp":"2026-05-10 12:08:32"}
+{"level":"info","message":"Saved 5 raw articles to raw-news.json","service":"news-carousel","timestamp":"2026-05-10 12:08:32"}
+{"level":"info","message":"Starting news summarization","service":"news-carousel","timestamp":"2026-05-10 12:08:32"}
+{"level":"warn","message":"OPENAI_API_KEY not valid. Using mock summarization.","service":"news-carousel","timestamp":"2026-05-10 12:08:32"}
+{"level":"info","message":"Saved 5 processed articles to processed-news.json","service":"news-carousel","timestamp":"2026-05-10 12:08:32"}
+{"level":"info","message":"Starting slide generation","service":"news-carousel","timestamp":"2026-05-10 12:08:32"}
+{"level":"info","message":"Generating slide 1/5","service":"news-carousel","timestamp":"2026-05-10 12:08:33"}
+{"level":"info","message":"Generating slide 2/5","service":"news-carousel","timestamp":"2026-05-10 12:08:38"}
+{"level":"info","message":"Generating slide 3/5","service":"news-carousel","timestamp":"2026-05-10 12:08:40"}
+{"level":"info","message":"Generating slide 4/5","service":"news-carousel","timestamp":"2026-05-10 12:08:42"}
+{"level":"info","message":"Generating slide 5/5","service":"news-carousel","timestamp":"2026-05-10 12:08:43"}
+{"level":"info","message":"Successfully generated 5 slides in output/ directory","service":"news-carousel","timestamp":"2026-05-10 12:08:45"}
+{"level":"info","message":"Starting news fetch for Bhopal","service":"news-carousel","timestamp":"2026-05-10 12:10:38"}
+{"level":"info","message":"Fetching news from 2026-05-04 to 2026-05-10","service":"news-carousel","timestamp":"2026-05-10 12:10:38"}
+{"level":"warn","message":"NEWS_API_KEY not valid. Using mock data.","service":"news-carousel","timestamp":"2026-05-10 12:10:38"}
+{"level":"info","message":"Found 15 unique articles with images","service":"news-carousel","timestamp":"2026-05-10 12:10:38"}
+{"level":"info","message":"Saved 5 raw articles to raw-news.json","service":"news-carousel","timestamp":"2026-05-10 12:10:38"}
+{"level":"info","message":"Starting news summarization","service":"news-carousel","timestamp":"2026-05-10 12:10:39"}
+{"level":"warn","message":"OPENAI_API_KEY not valid. Using mock summarization.","service":"news-carousel","timestamp":"2026-05-10 12:10:39"}
+{"level":"info","message":"Saved 5 processed articles to processed-news.json","service":"news-carousel","timestamp":"2026-05-10 12:10:39"}
+{"level":"info","message":"Starting slide generation","service":"news-carousel","timestamp":"2026-05-10 12:10:39"}
+{"level":"error","message":"Error generating slides: ENOENT: no such file or directory, open 'C:\\HARSH\\Dev\\bhopal-news-carousel\\src\\templates\\slide.html'","service":"news-carousel","timestamp":"2026-05-10 12:10:39"}
+{"level":"info","message":"Starting news fetch for Bhopal","service":"news-carousel","timestamp":"2026-05-10 12:10:56"}
+{"level":"info","message":"Fetching news from 2026-05-04 to 2026-05-10","service":"news-carousel","timestamp":"2026-05-10 12:10:56"}
+{"level":"warn","message":"NEWS_API_KEY not valid. Using mock data.","service":"news-carousel","timestamp":"2026-05-10 12:10:56"}
+{"level":"info","message":"Found 15 unique articles with images","service":"news-carousel","timestamp":"2026-05-10 12:10:56"}
+{"level":"info","message":"Saved 5 raw articles to raw-news.json","service":"news-carousel","timestamp":"2026-05-10 12:10:56"}
+{"level":"info","message":"Starting news summarization","service":"news-carousel","timestamp":"2026-05-10 12:10:56"}
+{"level":"warn","message":"OPENAI_API_KEY not valid. Using mock summarization.","service":"news-carousel","timestamp":"2026-05-10 12:10:56"}
+{"level":"info","message":"Saved 5 processed articles to processed-news.json","service":"news-carousel","timestamp":"2026-05-10 12:10:56"}
+{"level":"info","message":"Starting slide generation","service":"news-carousel","timestamp":"2026-05-10 12:10:57"}
+{"level":"info","message":"Generating slide 1/5","service":"news-carousel","timestamp":"2026-05-10 12:10:57"}
+{"level":"info","message":"Generating slide 2/5","service":"news-carousel","timestamp":"2026-05-10 12:11:00"}
+{"level":"info","message":"Generating slide 3/5","service":"news-carousel","timestamp":"2026-05-10 12:11:02"}
+{"level":"info","message":"Generating slide 4/5","service":"news-carousel","timestamp":"2026-05-10 12:11:02"}
+{"level":"info","message":"Generating slide 5/5","service":"news-carousel","timestamp":"2026-05-10 12:11:04"}
+{"level":"info","message":"Successfully generated 5 slides in output/ directory","service":"news-carousel","timestamp":"2026-05-10 12:11:05"}
+{"level":"info","message":"Starting news fetch for Bhopal","service":"news-carousel","timestamp":"2026-05-10 12:13:49"}
+{"level":"info","message":"Fetching news from 2026-05-04 to 2026-05-10","service":"news-carousel","timestamp":"2026-05-10 12:13:49"}
+{"level":"warn","message":"NEWS_API_KEY not valid. Using mock data.","service":"news-carousel","timestamp":"2026-05-10 12:13:49"}
+{"level":"info","message":"Found 15 unique articles with images","service":"news-carousel","timestamp":"2026-05-10 12:13:49"}
+{"level":"info","message":"Saved 5 raw articles to raw-news.json","service":"news-carousel","timestamp":"2026-05-10 12:13:49"}
+{"level":"info","message":"Starting news summarization","service":"news-carousel","timestamp":"2026-05-10 12:13:50"}
+{"level":"warn","message":"OPENAI_API_KEY not valid. Using mock summarization.","service":"news-carousel","timestamp":"2026-05-10 12:13:50"}
+{"level":"info","message":"Saved 5 processed articles to processed-news.json","service":"news-carousel","timestamp":"2026-05-10 12:13:50"}
+{"level":"info","message":"Starting slide generation","service":"news-carousel","timestamp":"2026-05-10 12:13:50"}
+{"level":"info","message":"Generating slide 1/5","service":"news-carousel","timestamp":"2026-05-10 12:13:50"}
+{"level":"info","message":"Generating slide 2/5","service":"news-carousel","timestamp":"2026-05-10 12:13:53"}
+{"level":"info","message":"Generating slide 3/5","service":"news-carousel","timestamp":"2026-05-10 12:13:55"}
+{"level":"info","message":"Generating slide 4/5","service":"news-carousel","timestamp":"2026-05-10 12:13:55"}
+{"level":"info","message":"Generating slide 5/5","service":"news-carousel","timestamp":"2026-05-10 12:13:57"}
+{"level":"info","message":"Successfully generated 5 slides in output/ directory","service":"news-carousel","timestamp":"2026-05-10 12:13:58"}
+{"level":"info","message":"Starting news fetch for Bhopal","service":"news-carousel","timestamp":"2026-05-10 12:15:37"}
+{"level":"info","message":"Fetching news from 2026-05-04 to 2026-05-10","service":"news-carousel","timestamp":"2026-05-10 12:15:37"}
+{"level":"warn","message":"NEWS_API_KEY not valid. Using mock data.","service":"news-carousel","timestamp":"2026-05-10 12:15:37"}
+{"level":"info","message":"Found 15 unique articles with images","service":"news-carousel","timestamp":"2026-05-10 12:15:37"}
+{"level":"info","message":"Saved 5 raw articles to raw-news.json","service":"news-carousel","timestamp":"2026-05-10 12:15:37"}
+{"level":"info","message":"Starting news fetch for Bhopal","service":"news-carousel","timestamp":"2026-05-10 12:15:49"}
+{"level":"info","message":"Fetching news from 2026-05-04 to 2026-05-10","service":"news-carousel","timestamp":"2026-05-10 12:15:49"}
+{"level":"warn","message":"NEWS_API_KEY not valid. Using mock data.","service":"news-carousel","timestamp":"2026-05-10 12:15:49"}
+{"level":"info","message":"Found 15 unique articles with images","service":"news-carousel","timestamp":"2026-05-10 12:15:49"}
+{"level":"info","message":"Saved 5 raw articles to raw-news.json","service":"news-carousel","timestamp":"2026-05-10 12:15:49"}
+{"level":"info","message":"Starting news fetch for Bhopal","service":"news-carousel","timestamp":"2026-05-10 12:16:38"}
+{"level":"info","message":"Fetching news from 2026-05-04 to 2026-05-10","service":"news-carousel","timestamp":"2026-05-10 12:16:38"}
+{"level":"warn","message":"NEWS_API_KEY not valid. Using mock data.","service":"news-carousel","timestamp":"2026-05-10 12:16:38"}
+{"level":"info","message":"Found 15 unique articles with images","service":"news-carousel","timestamp":"2026-05-10 12:16:38"}
+{"level":"info","message":"Saved 5 raw articles to raw-news.json","service":"news-carousel","timestamp":"2026-05-10 12:16:38"}
+{"level":"info","message":"Starting news summarization","service":"news-carousel","timestamp":"2026-05-10 12:16:39"}
+{"level":"warn","message":"OPENAI_API_KEY not valid. Using mock summarization.","service":"news-carousel","timestamp":"2026-05-10 12:16:39"}
+{"level":"info","message":"Saved 5 processed articles to processed-news.json","service":"news-carousel","timestamp":"2026-05-10 12:16:39"}
+{"level":"info","message":"Starting slide generation","service":"news-carousel","timestamp":"2026-05-10 12:16:39"}
+{"level":"info","message":"Generating slide 1/5","service":"news-carousel","timestamp":"2026-05-10 12:16:39"}
+{"level":"info","message":"Generating slide 2/5","service":"news-carousel","timestamp":"2026-05-10 12:16:42"}
+{"level":"info","message":"Generating slide 3/5","service":"news-carousel","timestamp":"2026-05-10 12:16:44"}
+{"level":"info","message":"Generating slide 4/5","service":"news-carousel","timestamp":"2026-05-10 12:16:45"}
+{"level":"info","message":"Generating slide 5/5","service":"news-carousel","timestamp":"2026-05-10 12:16:46"}
+{"level":"info","message":"Successfully generated 5 slides in output/ directory","service":"news-carousel","timestamp":"2026-05-10 12:16:47"}
+{"level":"info","message":"Starting Google RSS news fetch for Bhopal","service":"news-carousel","timestamp":"2026-05-10 12:24:50"}
+{"level":"info","message":"Fetching important news from Monday (2026-05-03T18:30:00.000Z) to Now","service":"news-carousel","timestamp":"2026-05-10 12:24:50"}
+{"level":"info","message":"RSS URL: https://news.google.com/rss/search?q=Bhopal%20when%3A7d&hl=en-IN&gl=IN&ceid=IN:en","service":"news-carousel","timestamp":"2026-05-10 12:24:50"}
+{"level":"info","message":"Found 91 unique articles from this week","service":"news-carousel","timestamp":"2026-05-10 12:24:52"}
+{"level":"info","message":"Saved 5 important raw articles to raw-news.json","service":"news-carousel","timestamp":"2026-05-10 12:24:52"}
+{"level":"info","message":"Starting news summarization","service":"news-carousel","timestamp":"2026-05-10 12:24:52"}
+{"level":"warn","message":"OPENAI_API_KEY not valid. Using real raw data without AI summary.","service":"news-carousel","timestamp":"2026-05-10 12:24:52"}
+{"level":"info","message":"Saved 5 processed articles to processed-news.json","service":"news-carousel","timestamp":"2026-05-10 12:24:52"}
+{"level":"info","message":"Starting slide generation","service":"news-carousel","timestamp":"2026-05-10 12:24:53"}
+{"level":"info","message":"Generating slide 1/5","service":"news-carousel","timestamp":"2026-05-10 12:24:53"}
+{"level":"info","message":"Generating slide 2/5","service":"news-carousel","timestamp":"2026-05-10 12:24:57"}
+{"level":"info","message":"Generating slide 3/5","service":"news-carousel","timestamp":"2026-05-10 12:24:58"}
+{"level":"info","message":"Generating slide 4/5","service":"news-carousel","timestamp":"2026-05-10 12:24:59"}
+{"level":"info","message":"Generating slide 5/5","service":"news-carousel","timestamp":"2026-05-10 12:25:00"}
+{"level":"info","message":"Successfully generated 5 slides in output/ directory","service":"news-carousel","timestamp":"2026-05-10 12:25:01"}
+{"level":"info","message":"Starting Google RSS news fetch for Bhopal","service":"news-carousel","timestamp":"2026-05-10 12:25:40"}
+{"level":"info","message":"Fetching important news from Monday (2026-05-03T18:30:00.000Z) to Now","service":"news-carousel","timestamp":"2026-05-10 12:25:40"}
+{"level":"info","message":"RSS URL: https://news.google.com/rss/search?q=Bhopal%20when%3A7d&hl=en-IN&gl=IN&ceid=IN:en","service":"news-carousel","timestamp":"2026-05-10 12:25:40"}
+{"level":"info","message":"Found 91 unique articles from this week","service":"news-carousel","timestamp":"2026-05-10 12:25:40"}
+{"level":"info","message":"Saved 5 important raw articles to raw-news.json","service":"news-carousel","timestamp":"2026-05-10 12:25:40"}
+{"level":"info","message":"Starting news summarization","service":"news-carousel","timestamp":"2026-05-10 12:25:41"}
+{"level":"warn","message":"OPENAI_API_KEY not valid. Using real raw data without AI summary.","service":"news-carousel","timestamp":"2026-05-10 12:25:41"}
+{"level":"info","message":"Saved 5 processed articles to processed-news.json","service":"news-carousel","timestamp":"2026-05-10 12:25:41"}
+{"level":"info","message":"Starting slide generation","service":"news-carousel","timestamp":"2026-05-10 12:25:41"}
+{"level":"info","message":"Generating slide 1/5","service":"news-carousel","timestamp":"2026-05-10 12:25:41"}
+{"level":"info","message":"Generating slide 2/5","service":"news-carousel","timestamp":"2026-05-10 12:25:44"}
+{"level":"info","message":"Generating slide 3/5","service":"news-carousel","timestamp":"2026-05-10 12:25:46"}
+{"level":"info","message":"Generating slide 4/5","service":"news-carousel","timestamp":"2026-05-10 12:25:47"}
+{"level":"info","message":"Generating slide 5/5","service":"news-carousel","timestamp":"2026-05-10 12:25:48"}
+{"level":"info","message":"Successfully generated 5 slides in output/ directory","service":"news-carousel","timestamp":"2026-05-10 12:25:49"}
+{"level":"info","message":"Starting Google RSS news fetch for Bhopal","service":"news-carousel","timestamp":"2026-05-10 12:27:37"}
+{"level":"info","message":"Fetching important news from Monday (2026-05-03T18:30:00.000Z) to Now","service":"news-carousel","timestamp":"2026-05-10 12:27:37"}
+{"level":"info","message":"RSS URL: https://news.google.com/rss/search?q=Bhopal%20when%3A7d&hl=en-IN&gl=IN&ceid=IN:en","service":"news-carousel","timestamp":"2026-05-10 12:27:37"}
+{"level":"info","message":"Found 91 unique articles from this week","service":"news-carousel","timestamp":"2026-05-10 12:27:38"}
+{"level":"info","message":"Extracting images from article URLs...","service":"news-carousel","timestamp":"2026-05-10 12:27:38"}
+{"level":"info","message":"Extracted image for: AIIMS Bhopal Dr Krishna Kumar ...","service":"news-carousel","timestamp":"2026-05-10 12:27:40"}
+{"level":"info","message":"Extracted image for: Silver Rate Today in Bhopal 10...","service":"news-carousel","timestamp":"2026-05-10 12:27:41"}
+{"level":"info","message":"Extracted image for: Workers sort wheat grains for ...","service":"news-carousel","timestamp":"2026-05-10 12:27:41"}
+{"level":"info","message":"Extracted image for: From Bhopal to Uzbekistan: Res...","service":"news-carousel","timestamp":"2026-05-10 12:27:42"}
+{"level":"info","message":"Extracted image for: Indore Metro books first b’day...","service":"news-carousel","timestamp":"2026-05-10 12:27:43"}
+{"level":"info","message":"Saved 5 important raw articles to raw-news.json","service":"news-carousel","timestamp":"2026-05-10 12:27:43"}
+{"level":"info","message":"Starting news summarization","service":"news-carousel","timestamp":"2026-05-10 12:27:43"}
+{"level":"warn","message":"OPENAI_API_KEY not valid. Using real raw data without AI summary.","service":"news-carousel","timestamp":"2026-05-10 12:27:43"}
+{"level":"info","message":"Saved 5 processed articles to processed-news.json","service":"news-carousel","timestamp":"2026-05-10 12:27:43"}
+{"level":"info","message":"Starting slide generation","service":"news-carousel","timestamp":"2026-05-10 12:27:44"}
+{"level":"info","message":"Generating slide 1/5","service":"news-carousel","timestamp":"2026-05-10 12:27:44"}
+{"level":"info","message":"Generating slide 2/5","service":"news-carousel","timestamp":"2026-05-10 12:27:47"}
+{"level":"info","message":"Generating slide 3/5","service":"news-carousel","timestamp":"2026-05-10 12:27:48"}
+{"level":"info","message":"Generating slide 4/5","service":"news-carousel","timestamp":"2026-05-10 12:27:49"}
+{"level":"info","message":"Generating slide 5/5","service":"news-carousel","timestamp":"2026-05-10 12:27:51"}
+{"level":"info","message":"Successfully generated 5 slides in output/ directory","service":"news-carousel","timestamp":"2026-05-10 12:27:52"}
+{"level":"info","message":"Starting Google RSS news fetch for Bhopal","service":"news-carousel","timestamp":"2026-05-10 12:29:18"}
+{"level":"info","message":"Fetching important news from Monday (2026-05-03T18:30:00.000Z) to Now","service":"news-carousel","timestamp":"2026-05-10 12:29:18"}
+{"level":"info","message":"RSS URL: https://news.google.com/rss/search?q=Bhopal%20when%3A7d&hl=en-IN&gl=IN&ceid=IN:en","service":"news-carousel","timestamp":"2026-05-10 12:29:18"}
+{"level":"info","message":"Found 91 unique articles from this week","service":"news-carousel","timestamp":"2026-05-10 12:29:19"}
+{"level":"info","message":"Extracting images from article URLs...","service":"news-carousel","timestamp":"2026-05-10 12:29:19"}
+{"level":"info","message":"Extracted image for: AIIMS Bhopal Dr Krishna Kumar ...","service":"news-carousel","timestamp":"2026-05-10 12:29:20"}
+{"level":"info","message":"Extracted image for: Silver Rate Today in Bhopal 10...","service":"news-carousel","timestamp":"2026-05-10 12:29:21"}
+{"level":"info","message":"Extracted image for: Workers sort wheat grains for ...","service":"news-carousel","timestamp":"2026-05-10 12:29:22"}
+{"level":"info","message":"Extracted image for: From Bhopal to Uzbekistan: Res...","service":"news-carousel","timestamp":"2026-05-10 12:29:22"}
+{"level":"info","message":"Extracted image for: Indore Metro books first b’day...","service":"news-carousel","timestamp":"2026-05-10 12:29:23"}
+{"level":"info","message":"Saved 5 important raw articles to raw-news.json","service":"news-carousel","timestamp":"2026-05-10 12:29:23"}
+{"level":"info","message":"Starting news summarization","service":"news-carousel","timestamp":"2026-05-10 12:29:23"}
+{"level":"warn","message":"OPENAI_API_KEY not valid. Using real raw data without AI summary.","service":"news-carousel","timestamp":"2026-05-10 12:29:23"}
+{"level":"info","message":"Saved 5 processed articles to processed-news.json","service":"news-carousel","timestamp":"2026-05-10 12:29:23"}
+{"level":"info","message":"Starting slide generation","service":"news-carousel","timestamp":"2026-05-10 12:29:24"}
+{"level":"info","message":"Generating slide 1/5","service":"news-carousel","timestamp":"2026-05-10 12:29:24"}
+{"level":"info","message":"Generating slide 2/5","service":"news-carousel","timestamp":"2026-05-10 12:29:27"}
+{"level":"info","message":"Generating slide 3/5","service":"news-carousel","timestamp":"2026-05-10 12:29:28"}
+{"level":"info","message":"Generating slide 4/5","service":"news-carousel","timestamp":"2026-05-10 12:29:29"}
+{"level":"info","message":"Generating slide 5/5","service":"news-carousel","timestamp":"2026-05-10 12:29:31"}
+{"level":"info","message":"Successfully generated 5 slides in output/ directory","service":"news-carousel","timestamp":"2026-05-10 12:29:32"}
+{"level":"info","message":"Starting Google RSS news fetch for Bhopal","service":"news-carousel","timestamp":"2026-05-10 12:40:10"}
+{"level":"info","message":"Fetching news from Monday (2026-05-03T18:30:00.000Z)","service":"news-carousel","timestamp":"2026-05-10 12:40:10"}
+{"level":"info","message":"RSS URL: https://news.google.com/rss/search?q=Bhopal%20when%3A7d&hl=en-IN&gl=IN&ceid=IN:en","service":"news-carousel","timestamp":"2026-05-10 12:40:10"}
+{"level":"info","message":"Found 91 unique articles","service":"news-carousel","timestamp":"2026-05-10 12:40:11"}
+{"level":"info","message":"Extracting real article images...","service":"news-carousel","timestamp":"2026-05-10 12:40:11"}
+{"level":"info","message":"Real URL: https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUWRrbGJmZFlwSWVFMXYwT0pYQWZMQU9FeUVkRW5MeDZIc0FvY2Yxd1lFRkNfOGRjdW9Wb2VmVmQyLVJBdW43YlJ2cFZ3S29DZVRvOHJhTnZZX0lVelpuSEVFb2NKYjBiX1c4SldvdWZqQ2Z0Rzljd0t0V0RsSU5UR1pqZWVOdjM1MjBackdNalF2OHRaaHRsUWVBdGJyc2xqdUFacjhFZ09PektJdFR5bVpmbGpDVHp4d3AtNE9Gem7SAcYBQVVfeXFMTjJXM3lOQ2Jyei1QU3dJekJWdFVyQkFuR2RxZkMwSkpEX1hwcFpPM3dYSS1qaXJ4Z3dudEpwTGQzT3llSy1BckEyYUFmQmFLVnhQY0VvVFFDWVQ4ckdkbFRvaVNxMEotbm9ZY3JMN0FicEhlMWMwTWZ2dDkxVzdEN09Wb0QtVU1xUzVwTGF3ZEV5MHUweUp3SVEycUtMT3ZzRmptM1ZDVTJXaHlYdm5Ia1RhUE9mZlRzanhRNHdzRUFaMmZ0WjRB?oc=5","service":"news-carousel","timestamp":"2026-05-10 12:40:11"}
+{"level":"warn","message":"No valid image found for article","service":"news-carousel","timestamp":"2026-05-10 12:40:12"}
+{"level":"info","message":"Real URL: https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZS0yVEFIQjJlNEsxYWttRXpjQkdUeUdOS3BGd2VFcjczb193aHFKeFBFMTFmeWE0T0dnMHEtOWIySkR2RVhaU1hJRHBSY3I3LTl1SWZaYjVZanVUYlY1RmZRMjZxZFB6Njd3QlJLdzBQVHJGeW0xYThTMFQzYkFXdi1oOFZWamRETmdQUGRFbEFtUFdhTzZwcmJaNE44Zy1VM2UwUUV4a1NIaEN3Z1BoVk1Jei1yUDlCdVdYVXVVRlhJREVzU2RoaEhPLVl4TXFRWFowWjdNZzRwLU3SAeABQVVfeXFMUEo4NlpHYVEzNW9lZlFUWnFjQW5PUXdzbWpjek80SmthVVhaT19NVzFfTlJIZ0RCTzVZSGFISnA3blpWdkN5OGY5a0FiOFhGbnZqaW4wY0tZVUdOMjNhNW96VUVodjUwRzZVbkwyeVVGcTByazlnbVNNS2F0UEo5eWpDTERnVm5NU1k4bWtwSG9DQkdlbVp2ZGprMzdEc2ZPS1UyTFpxWlFxbWdhSWhkOE93SUdqdGtEWVU1OTN4NTdEZ01NWVVncmVZX0U3RnA0Q09QRmF0c1J5OTRPWTR0UDM?oc=5","service":"news-carousel","timestamp":"2026-05-10 12:40:12"}
+{"level":"warn","message":"No valid image found for article","service":"news-carousel","timestamp":"2026-05-10 12:40:13"}
+{"level":"info","message":"Real URL: https://news.google.com/rss/articles/CBMidEFVX3lxTE92WWlnZlEzcXhabW9lZ3EyUFdOMGtOQW02b1dKVVQ1bFhYZS1ySndjYWlRZTJFbW5zUWhlS1pPSjhmNXhYMENibmxxZnJ4Ujl3SUlIRzBQdnFkTUJXbUNwa2FQMmRnVG9abjUxRTIzMDZXUktU?oc=5","service":"news-carousel","timestamp":"2026-05-10 12:40:13"}
+{"level":"warn","message":"No valid image found for article","service":"news-carousel","timestamp":"2026-05-10 12:40:14"}
+{"level":"info","message":"Real URL: https://news.google.com/rss/articles/CBMivgFBVV95cUxPUm9qQXIwZkszLWFvalZLR0FKMmdVMTlwNFN5OExCRTlRWHF0cDE4eGpTV1c0eUl5MExJUUhaVWZIUVJzbldUWl9WWGFYUkFZRzRuRHJLbHpUUTQzMTFjQW4tSURRNE10RWF0Z0pCXzF2YUxpM2JrOEdNZkVIRkdBcm4zZnhsV1dhTXpFWG4yWUMxek4yVGdCcEE0XzJzU25TTWM1dEpWbDRrODFKRkRmZXZlb0Q2aVFUUks0NnJR?oc=5","service":"news-carousel","timestamp":"2026-05-10 12:40:14"}
+{"level":"warn","message":"No valid image found for article","service":"news-carousel","timestamp":"2026-05-10 12:40:15"}
+{"level":"info","message":"Real URL: https://news.google.com/rss/articles/CBMixgFBVV95cUxPRkFIQUppT1dOVnBDa0QydjJpSkRwdlp2N1IxOEZ4NVdicm5vZzBnLVlfaWtlVlpfTmMwN21jNElVMzVCTXdFbjRMbUp3V3hoT185bGlUMm1kLTJ4TWZMR0FCRnllRlQ2TnFYbkFFbmpiVHdLSW5tTTgxM0NZMThVSi1heGtsaTlpR2NvcFRjdGVfdUQzTVFMSVRMdXBsNlFtekdsMzI1cGdsUmVEcjNzcDBkS29QaE5BV1diUUhHRmNDXzZSV2fSAcsBQVVfeXFMTVZmWWVBa3g1aFhhQTVfTVN2ZlRCOUs2WHpQM0NQY2drR2MxaE9QS0dhd1F4WXhMbXVjTS1FeDdBQTljUlU0OUZTNzZMX29rTE5VZ2tLZV9iSkoyNGVicVNtOFFZc1BXQVU0TW5pRlRpbzJlTnZDNlVCRlgxT1ZYUkJMZlFBYkxBYkpWUmJSaXFBY2thaGxXWEJqQXZiQ3hFZWZlbUpaazZ4MkhfUG5TRUFzc3V1TzRaWk5xQkQ5d1VObjJxV1NtcWl6MWc?oc=5","service":"news-carousel","timestamp":"2026-05-10 12:40:15"}
+{"level":"warn","message":"No valid image found for article","service":"news-carousel","timestamp":"2026-05-10 12:40:16"}
+{"level":"info","message":"Saved 5 articles to raw-news.json","service":"news-carousel","timestamp":"2026-05-10 12:40:16"}
+{"level":"info","message":"Starting news summarization","service":"news-carousel","timestamp":"2026-05-10 12:40:16"}
+{"level":"warn","message":"OPENAI_API_KEY not valid. Using real raw data without AI summary.","service":"news-carousel","timestamp":"2026-05-10 12:40:16"}
+{"level":"info","message":"Saved 5 processed articles to processed-news.json","service":"news-carousel","timestamp":"2026-05-10 12:40:16"}
+{"level":"info","message":"Starting slide generation","service":"news-carousel","timestamp":"2026-05-10 12:40:17"}
+{"level":"info","message":"Generating slide 1/5","service":"news-carousel","timestamp":"2026-05-10 12:40:17"}
+{"level":"info","message":"Generating slide 2/5","service":"news-carousel","timestamp":"2026-05-10 12:40:21"}
+{"level":"info","message":"Generating slide 3/5","service":"news-carousel","timestamp":"2026-05-10 12:40:24"}
+{"level":"info","message":"Generating slide 4/5","service":"news-carousel","timestamp":"2026-05-10 12:40:27"}
+{"level":"info","message":"Generating slide 5/5","service":"news-carousel","timestamp":"2026-05-10 12:40:29"}
+{"level":"info","message":"Successfully generated 5 slides in output/ directory","service":"news-carousel","timestamp":"2026-05-10 12:40:31"}
+{"level":"info","message":"Starting Google RSS news fetch for Bhopal","service":"news-carousel","timestamp":"2026-05-10 19:38:48"}
+{"level":"info","message":"Fetching news from Monday (2026-05-03T18:30:00.000Z)","service":"news-carousel","timestamp":"2026-05-10 19:38:48"}
+{"level":"info","message":"RSS URL: https://news.google.com/rss/search?q=Bhopal%20when%3A7d&hl=en-IN&gl=IN&ceid=IN:en","service":"news-carousel","timestamp":"2026-05-10 19:38:48"}
+{"level":"info","message":"Found 0 unique articles","service":"news-carousel","timestamp":"2026-05-10 19:38:50"}
+{"level":"info","message":"Extracting real article images...","service":"news-carousel","timestamp":"2026-05-10 19:38:50"}
+{"level":"info","message":"Saved 0 articles to raw-news.json","service":"news-carousel","timestamp":"2026-05-10 19:38:50"}
+{"level":"info","message":"Starting news summarization","service":"news-carousel","timestamp":"2026-05-10 19:38:52"}
+{"level":"warn","message":"OPENAI_API_KEY not valid. Using real raw data without AI summary.","service":"news-carousel","timestamp":"2026-05-10 19:38:52"}
+{"level":"info","message":"Saved 0 processed articles to processed-news.json","service":"news-carousel","timestamp":"2026-05-10 19:38:52"}
+{"level":"info","message":"Starting slide generation","service":"news-carousel","timestamp":"2026-05-10 19:38:57"}
+{"level":"info","message":"Successfully generated 0 slides in output/ directory","service":"news-carousel","timestamp":"2026-05-10 19:38:57"}
+{"level":"info","message":"Starting GNews fetch for city: Bhopal","service":"news-carousel","timestamp":"2026-05-10 19:40:52"}
+{"level":"info","message":"Filtering news from Monday (2026-05-03T18:30:00.000Z)","service":"news-carousel","timestamp":"2026-05-10 19:40:52"}
+{"level":"info","message":"GNews API query: Bhopal","service":"news-carousel","timestamp":"2026-05-10 19:40:52"}
+{"level":"info","message":"GNews returned 10 articles (total available: 9533)","service":"news-carousel","timestamp":"2026-05-10 19:40:53"}
+{"level":"info","message":"Articles after date filter (this week): 10","service":"news-carousel","timestamp":"2026-05-10 19:40:53"}
+{"level":"info","message":"Unique articles after dedup: 6","service":"news-carousel","timestamp":"2026-05-10 19:40:53"}
+{"level":"info","message":"Image OK for: \"90-degree overbridge controversy takes a...\"","service":"news-carousel","timestamp":"2026-05-10 19:40:53"}
+{"level":"info","message":"Image OK for: \"Cinereous vulture rescued and treated in...\"","service":"news-carousel","timestamp":"2026-05-10 19:40:53"}
+{"level":"info","message":"Image OK for: \"Mercury on the rise: Temp set to jump 4°...\"","service":"news-carousel","timestamp":"2026-05-10 19:40:53"}
+{"level":"info","message":"Image OK for: \"BMC revamps 80 back-lanes ahead of Swach...\"","service":"news-carousel","timestamp":"2026-05-10 19:40:53"}
+{"level":"info","message":"Image OK for: \"How safe is food you consume?...\"","service":"news-carousel","timestamp":"2026-05-10 19:40:53"}
+{"level":"info","message":"Saved 5 articles to raw-news.json","service":"news-carousel","timestamp":"2026-05-10 19:40:53"}
+{"level":"info","message":"Starting news summarization","service":"news-carousel","timestamp":"2026-05-10 19:40:53"}
+{"level":"warn","message":"OPENAI_API_KEY not valid. Using real raw data without AI summary.","service":"news-carousel","timestamp":"2026-05-10 19:40:53"}
+{"level":"info","message":"Saved 5 processed articles to processed-news.json","service":"news-carousel","timestamp":"2026-05-10 19:40:53"}
+{"level":"info","message":"Starting slide generation","service":"news-carousel","timestamp":"2026-05-10 19:40:54"}
+{"level":"info","message":"Generating slide 1/5","service":"news-carousel","timestamp":"2026-05-10 19:40:54"}
+{"level":"info","message":"Generating slide 2/5","service":"news-carousel","timestamp":"2026-05-10 19:40:58"}
+{"level":"info","message":"Generating slide 3/5","service":"news-carousel","timestamp":"2026-05-10 19:41:00"}
+{"level":"info","message":"Generating slide 4/5","service":"news-carousel","timestamp":"2026-05-10 19:41:01"}
+{"level":"info","message":"Generating slide 5/5","service":"news-carousel","timestamp":"2026-05-10 19:41:03"}
+{"level":"info","message":"Successfully generated 5 slides in output/ directory","service":"news-carousel","timestamp":"2026-05-10 19:41:05"}
+{"level":"info","message":"Starting GNews fetch for city: Bhopal","service":"news-carousel","timestamp":"2026-05-10 19:57:33"}
+{"level":"info","message":"Filtering news from Monday (2026-05-03T18:30:00.000Z)","service":"news-carousel","timestamp":"2026-05-10 19:57:33"}
+{"level":"info","message":"GNews API query: \"Bhopal\"","service":"news-carousel","timestamp":"2026-05-10 19:57:33"}
+{"level":"info","message":"GNews returned 10 articles (total available: 9533)","service":"news-carousel","timestamp":"2026-05-10 19:57:34"}
+{"level":"info","message":"Articles after date filter (this week): 10","service":"news-carousel","timestamp":"2026-05-10 19:57:34"}
+{"level":"info","message":"Unique articles after dedup: 6","service":"news-carousel","timestamp":"2026-05-10 19:57:34"}
+{"level":"info","message":"Checking headline/description lengths — trimming with AI where needed...","service":"news-carousel","timestamp":"2026-05-10 19:57:34"}
+{"level":"info","message":"Trimming: \"90-degree overbridge controversy takes a new ...\" [title: 75 chars | desc: 232 chars]","service":"news-carousel","timestamp":"2026-05-10 19:57:34"}
+{"level":"warn","message":"AI trimming failed: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cau3ZTptJr2ZajLuV5rQY\"} — falling back to hard truncation","service":"news-carousel","timestamp":"2026-05-10 19:57:35"}
+{"level":"info","message":"  ✔ After trim — title: 55 chars | desc: 180 chars","service":"news-carousel","timestamp":"2026-05-10 19:57:35"}
+{"level":"info","message":"Trimming: \"Cinereous vulture rescued and treated in MP r...\" [title: 86 chars | desc: 226 chars]","service":"news-carousel","timestamp":"2026-05-10 19:57:35"}
+{"level":"warn","message":"AI trimming failed: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cau3ZVbJLRXML385Qw2Cu\"} — falling back to hard truncation","service":"news-carousel","timestamp":"2026-05-10 19:57:35"}
+{"level":"info","message":"  ✔ After trim — title: 55 chars | desc: 180 chars","service":"news-carousel","timestamp":"2026-05-10 19:57:35"}
+{"level":"info","message":"Trimming: \"Mercury on the rise: Temp set to jump 4°C ove...\" [title: 61 chars | desc: 230 chars]","service":"news-carousel","timestamp":"2026-05-10 19:57:35"}
+{"level":"warn","message":"AI trimming failed: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cau3ZXBYs1ua1qYMUrgwY\"} — falling back to hard truncation","service":"news-carousel","timestamp":"2026-05-10 19:57:35"}
+{"level":"info","message":"  ✔ After trim — title: 55 chars | desc: 180 chars","service":"news-carousel","timestamp":"2026-05-10 19:57:35"}
+{"level":"info","message":"Trimming: \"BMC revamps 80 back-lanes ahead of Swachh Sur...\" [title: 60 chars | desc: 232 chars]","service":"news-carousel","timestamp":"2026-05-10 19:57:35"}
+{"level":"warn","message":"AI trimming failed: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cau3ZYtz5eusAPDdpsiWu\"} — falling back to hard truncation","service":"news-carousel","timestamp":"2026-05-10 19:57:36"}
+{"level":"info","message":"  ✔ After trim — title: 55 chars | desc: 180 chars","service":"news-carousel","timestamp":"2026-05-10 19:57:36"}
+{"level":"info","message":"Trimming: \"How safe is food you consume?...\" [title: 29 chars | desc: 231 chars]","service":"news-carousel","timestamp":"2026-05-10 19:57:36"}
+{"level":"warn","message":"AI trimming failed: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cau3ZaTFFgBfHJE1gfUBm\"} — falling back to hard truncation","service":"news-carousel","timestamp":"2026-05-10 19:57:36"}
+{"level":"info","message":"  ✔ After trim — title: 29 chars | desc: 180 chars","service":"news-carousel","timestamp":"2026-05-10 19:57:36"}
+{"level":"info","message":"Image OK: \"90-degree overbridge controversy takes a...\"","service":"news-carousel","timestamp":"2026-05-10 19:57:36"}
+{"level":"info","message":"Image OK: \"Cinereous vulture rescued and treated in...\"","service":"news-carousel","timestamp":"2026-05-10 19:57:36"}
+{"level":"info","message":"Image OK: \"Mercury on the rise: Temp set to jump 4°...\"","service":"news-carousel","timestamp":"2026-05-10 19:57:36"}
+{"level":"info","message":"Image OK: \"BMC revamps 80 back-lanes ahead of Swach...\"","service":"news-carousel","timestamp":"2026-05-10 19:57:36"}
+{"level":"info","message":"Image OK: \"How safe is food you consume?...\"","service":"news-carousel","timestamp":"2026-05-10 19:57:36"}
+{"level":"info","message":"Saved 5 articles to raw-news.json","service":"news-carousel","timestamp":"2026-05-10 19:57:36"}
+{"level":"info","message":"Starting news summarization","service":"news-carousel","timestamp":"2026-05-10 19:57:37"}
+{"level":"warn","message":"OPENAI_API_KEY not valid. Using real raw data without AI summary.","service":"news-carousel","timestamp":"2026-05-10 19:57:37"}
+{"level":"info","message":"Saved 5 processed articles to processed-news.json","service":"news-carousel","timestamp":"2026-05-10 19:57:37"}
+{"level":"info","message":"Starting slide generation","service":"news-carousel","timestamp":"2026-05-10 19:57:37"}
+{"level":"info","message":"Generating slide 1/5","service":"news-carousel","timestamp":"2026-05-10 19:57:38"}
+{"level":"info","message":"Generating slide 2/5","service":"news-carousel","timestamp":"2026-05-10 19:57:41"}
+{"level":"info","message":"Generating slide 3/5","service":"news-carousel","timestamp":"2026-05-10 19:57:45"}
+{"level":"info","message":"Generating slide 4/5","service":"news-carousel","timestamp":"2026-05-10 19:57:47"}
+{"level":"info","message":"Generating slide 5/5","service":"news-carousel","timestamp":"2026-05-10 19:57:49"}
+{"level":"info","message":"Successfully generated 5 slides in output/ directory","service":"news-carousel","timestamp":"2026-05-10 19:57:51"}
+{"level":"info","message":"Starting GNews fetch for city: Bhopal","service":"news-carousel","timestamp":"2026-05-10 20:01:36"}
+{"level":"info","message":"Filtering news from Monday (2026-05-03T18:30:00.000Z)","service":"news-carousel","timestamp":"2026-05-10 20:01:36"}
+{"level":"info","message":"GNews API query: \"Bhopal\"","service":"news-carousel","timestamp":"2026-05-10 20:01:36"}
+{"level":"info","message":"GNews returned 10 articles (total available: 9533)","service":"news-carousel","timestamp":"2026-05-10 20:01:37"}
+{"level":"info","message":"Articles after date filter (this week): 10","service":"news-carousel","timestamp":"2026-05-10 20:01:37"}
+{"level":"info","message":"Unique articles after dedup: 6","service":"news-carousel","timestamp":"2026-05-10 20:01:37"}
+{"level":"info","message":"Checking headline/description lengths — trimming with AI where needed...","service":"news-carousel","timestamp":"2026-05-10 20:01:37"}
+{"level":"info","message":"Trimming: \"90-degree overbridge controversy takes a new ...\" [title: 75 chars | desc: 232 chars]","service":"news-carousel","timestamp":"2026-05-10 20:01:37"}
+{"level":"warn","message":"AI trimming failed: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cau3sNJzzpWi3r1trBS4j\"} — falling back to hard truncation","service":"news-carousel","timestamp":"2026-05-10 20:01:38"}
+{"level":"info","message":"  ✔ After trim — title: 55 chars | desc: 180 chars","service":"news-carousel","timestamp":"2026-05-10 20:01:38"}
+{"level":"info","message":"Trimming: \"Cinereous vulture rescued and treated in MP r...\" [title: 86 chars | desc: 226 chars]","service":"news-carousel","timestamp":"2026-05-10 20:01:38"}
+{"level":"warn","message":"AI trimming failed: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cau3sPjpjuvEEewrVaLXx\"} — falling back to hard truncation","service":"news-carousel","timestamp":"2026-05-10 20:01:38"}
+{"level":"info","message":"  ✔ After trim — title: 55 chars | desc: 180 chars","service":"news-carousel","timestamp":"2026-05-10 20:01:38"}
+{"level":"info","message":"Trimming: \"Mercury on the rise: Temp set to jump 4°C ove...\" [title: 61 chars | desc: 230 chars]","service":"news-carousel","timestamp":"2026-05-10 20:01:38"}
+{"level":"warn","message":"AI trimming failed: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cau3sRCPGGwYeAmsGGSPw\"} — falling back to hard truncation","service":"news-carousel","timestamp":"2026-05-10 20:01:38"}
+{"level":"info","message":"  ✔ After trim — title: 55 chars | desc: 180 chars","service":"news-carousel","timestamp":"2026-05-10 20:01:38"}
+{"level":"info","message":"Trimming: \"BMC revamps 80 back-lanes ahead of Swachh Sur...\" [title: 60 chars | desc: 232 chars]","service":"news-carousel","timestamp":"2026-05-10 20:01:38"}
+{"level":"warn","message":"AI trimming failed: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cau3sSfSFb7u58eLY4hUi\"} — falling back to hard truncation","service":"news-carousel","timestamp":"2026-05-10 20:01:39"}
+{"level":"info","message":"  ✔ After trim — title: 55 chars | desc: 180 chars","service":"news-carousel","timestamp":"2026-05-10 20:01:39"}
+{"level":"info","message":"Trimming: \"How safe is food you consume?...\" [title: 29 chars | desc: 231 chars]","service":"news-carousel","timestamp":"2026-05-10 20:01:39"}
+{"level":"warn","message":"AI trimming failed: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cau3sV4Yum6R7wyd9N6ph\"} — falling back to hard truncation","service":"news-carousel","timestamp":"2026-05-10 20:01:39"}
+{"level":"info","message":"  ✔ After trim — title: 29 chars | desc: 180 chars","service":"news-carousel","timestamp":"2026-05-10 20:01:39"}
+{"level":"info","message":"Image OK: \"90-degree overbridge controversy takes a...\"","service":"news-carousel","timestamp":"2026-05-10 20:01:39"}
+{"level":"info","message":"Image OK: \"Cinereous vulture rescued and treated in...\"","service":"news-carousel","timestamp":"2026-05-10 20:01:39"}
+{"level":"info","message":"Image OK: \"Mercury on the rise: Temp set to jump 4°...\"","service":"news-carousel","timestamp":"2026-05-10 20:01:39"}
+{"level":"info","message":"Image OK: \"BMC revamps 80 back-lanes ahead of Swach...\"","service":"news-carousel","timestamp":"2026-05-10 20:01:39"}
+{"level":"info","message":"Image OK: \"How safe is food you consume?...\"","service":"news-carousel","timestamp":"2026-05-10 20:01:39"}
+{"level":"info","message":"Saved 5 articles to raw-news.json","service":"news-carousel","timestamp":"2026-05-10 20:01:39"}
+{"level":"info","message":"Starting news summarization","service":"news-carousel","timestamp":"2026-05-10 20:01:39"}
+{"level":"warn","message":"OPENAI_API_KEY not valid. Using real raw data without AI summary.","service":"news-carousel","timestamp":"2026-05-10 20:01:39"}
+{"level":"info","message":"Saved 5 processed articles to processed-news.json","service":"news-carousel","timestamp":"2026-05-10 20:01:39"}
+{"level":"info","message":"Starting slide generation","service":"news-carousel","timestamp":"2026-05-10 20:01:40"}
+{"level":"info","message":"Generating slide 1/5","service":"news-carousel","timestamp":"2026-05-10 20:01:40"}
+{"level":"info","message":"Generating slide 2/5","service":"news-carousel","timestamp":"2026-05-10 20:01:44"}
+{"level":"info","message":"Generating slide 3/5","service":"news-carousel","timestamp":"2026-05-10 20:01:46"}
+{"level":"info","message":"Generating slide 4/5","service":"news-carousel","timestamp":"2026-05-10 20:01:48"}
+{"level":"info","message":"Generating slide 5/5","service":"news-carousel","timestamp":"2026-05-10 20:01:50"}
+{"level":"info","message":"Successfully generated 5 slides in output/ directory","service":"news-carousel","timestamp":"2026-05-10 20:01:52"}
+{"level":"info","message":"Starting GNews fetch for city: Bhopal","service":"news-carousel","timestamp":"2026-05-10 20:06:48"}
+{"level":"info","message":"Filtering news from Monday (2026-05-03T18:30:00.000Z)","service":"news-carousel","timestamp":"2026-05-10 20:06:48"}
+{"level":"info","message":"GNews API query: \"Bhopal\"","service":"news-carousel","timestamp":"2026-05-10 20:06:48"}
+{"level":"info","message":"GNews returned 10 articles (total available: 9533)","service":"news-carousel","timestamp":"2026-05-10 20:06:49"}
+{"level":"info","message":"Articles after date filter (this week): 10","service":"news-carousel","timestamp":"2026-05-10 20:06:49"}
+{"level":"info","message":"Unique articles after dedup: 6","service":"news-carousel","timestamp":"2026-05-10 20:06:49"}
+{"level":"info","message":"Checking headline/description lengths — trimming with AI where needed...","service":"news-carousel","timestamp":"2026-05-10 20:06:49"}
+{"level":"info","message":"Trimming: \"90-degree overbridge controversy takes a new ...\" [title: 75 chars | desc: 232 chars]","service":"news-carousel","timestamp":"2026-05-10 20:06:49"}
+{"level":"warn","message":"AI trimming failed: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cau4GNrdjLiL82NyEX9Sh\"} — falling back to hard truncation","service":"news-carousel","timestamp":"2026-05-10 20:06:50"}
+{"level":"info","message":"  ✔ After trim — title: 55 chars | desc: 180 chars","service":"news-carousel","timestamp":"2026-05-10 20:06:50"}
+{"level":"info","message":"Trimming: \"Cinereous vulture rescued and treated in MP r...\" [title: 86 chars | desc: 226 chars]","service":"news-carousel","timestamp":"2026-05-10 20:06:50"}
+{"level":"warn","message":"AI trimming failed: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cau4GQJhSKpTyRy83JFGK\"} — falling back to hard truncation","service":"news-carousel","timestamp":"2026-05-10 20:06:50"}
+{"level":"info","message":"  ✔ After trim — title: 55 chars | desc: 180 chars","service":"news-carousel","timestamp":"2026-05-10 20:06:50"}
+{"level":"info","message":"Trimming: \"Mercury on the rise: Temp set to jump 4°C ove...\" [title: 61 chars | desc: 230 chars]","service":"news-carousel","timestamp":"2026-05-10 20:06:50"}
+{"level":"warn","message":"AI trimming failed: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cau4GRgJ6gJ4aMYQi5cLn\"} — falling back to hard truncation","service":"news-carousel","timestamp":"2026-05-10 20:06:50"}
+{"level":"info","message":"  ✔ After trim — title: 55 chars | desc: 180 chars","service":"news-carousel","timestamp":"2026-05-10 20:06:50"}
+{"level":"info","message":"Trimming: \"BMC revamps 80 back-lanes ahead of Swachh Sur...\" [title: 60 chars | desc: 232 chars]","service":"news-carousel","timestamp":"2026-05-10 20:06:50"}
+{"level":"warn","message":"AI trimming failed: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cau4GT3Q2onFrWN8X8UVc\"} — falling back to hard truncation","service":"news-carousel","timestamp":"2026-05-10 20:06:51"}
+{"level":"info","message":"  ✔ After trim — title: 55 chars | desc: 180 chars","service":"news-carousel","timestamp":"2026-05-10 20:06:51"}
+{"level":"info","message":"Trimming: \"How safe is food you consume?...\" [title: 29 chars | desc: 231 chars]","service":"news-carousel","timestamp":"2026-05-10 20:06:51"}
+{"level":"warn","message":"AI trimming failed: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cau4GUQW4ogtrg9S1jKJS\"} — falling back to hard truncation","service":"news-carousel","timestamp":"2026-05-10 20:06:51"}
+{"level":"info","message":"  ✔ After trim — title: 29 chars | desc: 180 chars","service":"news-carousel","timestamp":"2026-05-10 20:06:51"}
+{"level":"info","message":"Image OK: \"90-degree overbridge controversy takes a...\"","service":"news-carousel","timestamp":"2026-05-10 20:06:51"}
+{"level":"info","message":"Image OK: \"Cinereous vulture rescued and treated in...\"","service":"news-carousel","timestamp":"2026-05-10 20:06:51"}
+{"level":"info","message":"Image OK: \"Mercury on the rise: Temp set to jump 4°...\"","service":"news-carousel","timestamp":"2026-05-10 20:06:51"}
+{"level":"info","message":"Image OK: \"BMC revamps 80 back-lanes ahead of Swach...\"","service":"news-carousel","timestamp":"2026-05-10 20:06:51"}
+{"level":"info","message":"Image OK: \"How safe is food you consume?...\"","service":"news-carousel","timestamp":"2026-05-10 20:06:51"}
+{"level":"info","message":"Saved 5 articles to raw-news.json","service":"news-carousel","timestamp":"2026-05-10 20:06:51"}
+{"level":"info","message":"Starting news summarization with Claude","service":"news-carousel","timestamp":"2026-05-10 20:06:51"}
+{"level":"info","message":"Summarizing article 1/5: \"90-degree overbridge controversy takes a new ...\"","service":"news-carousel","timestamp":"2026-05-10 20:06:51"}
+{"level":"warn","message":"Claude failed for article 1: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cau4GYW4kRqzi162LhAuA\"} — using hard truncation","service":"news-carousel","timestamp":"2026-05-10 20:06:52"}
+{"level":"info","message":"Summarizing article 2/5: \"Cinereous vulture rescued and treated in MP r...\"","service":"news-carousel","timestamp":"2026-05-10 20:06:52"}
+{"level":"warn","message":"Claude failed for article 2: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cau4GaS9gEMrnUAEb7AwN\"} — using hard truncation","service":"news-carousel","timestamp":"2026-05-10 20:06:52"}
+{"level":"info","message":"Summarizing article 3/5: \"Mercury on the rise: Temp set to jump 4°C ove...\"","service":"news-carousel","timestamp":"2026-05-10 20:06:52"}
+{"level":"warn","message":"Claude failed for article 3: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cau4Gbsxj39SHmwiGmQou\"} — using hard truncation","service":"news-carousel","timestamp":"2026-05-10 20:06:53"}
+{"level":"info","message":"Summarizing article 4/5: \"BMC revamps 80 back-lanes ahead of Swachh Sur...\"","service":"news-carousel","timestamp":"2026-05-10 20:06:53"}
+{"level":"warn","message":"Claude failed for article 4: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cau4Gdaukqrr8fLVKYotd\"} — using hard truncation","service":"news-carousel","timestamp":"2026-05-10 20:06:53"}
+{"level":"info","message":"Summarizing article 5/5: \"How safe is food you consume?...\"","service":"news-carousel","timestamp":"2026-05-10 20:06:53"}
+{"level":"warn","message":"Claude failed for article 5: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cau4GfB9iCVmyGyUVdi9q\"} — using hard truncation","service":"news-carousel","timestamp":"2026-05-10 20:06:53"}
+{"level":"info","message":"Saved 5 processed articles to processed-news.json","service":"news-carousel","timestamp":"2026-05-10 20:06:53"}
+{"level":"info","message":"Starting slide generation","service":"news-carousel","timestamp":"2026-05-10 20:06:54"}
+{"level":"info","message":"Generating slide 1/5","service":"news-carousel","timestamp":"2026-05-10 20:06:54"}
+{"level":"info","message":"Generating slide 2/5","service":"news-carousel","timestamp":"2026-05-10 20:06:58"}
+{"level":"info","message":"Generating slide 3/5","service":"news-carousel","timestamp":"2026-05-10 20:07:00"}
+{"level":"info","message":"Generating slide 4/5","service":"news-carousel","timestamp":"2026-05-10 20:07:02"}
+{"level":"info","message":"Generating slide 5/5","service":"news-carousel","timestamp":"2026-05-10 20:07:04"}
+{"level":"info","message":"Successfully generated 5 slides in output/ directory","service":"news-carousel","timestamp":"2026-05-10 20:07:06"}
+{"level":"info","message":"Starting GNews fetch for city: Bhopal","service":"news-carousel","timestamp":"2026-05-10 20:12:30"}
+{"level":"info","message":"Filtering news from Monday (2026-05-03T18:30:00.000Z)","service":"news-carousel","timestamp":"2026-05-10 20:12:30"}
+{"level":"info","message":"GNews API query: \"Bhopal\"","service":"news-carousel","timestamp":"2026-05-10 20:12:30"}
+{"level":"info","message":"GNews returned 10 articles (total available: 9533)","service":"news-carousel","timestamp":"2026-05-10 20:12:31"}
+{"level":"info","message":"Articles after date filter (this week): 10","service":"news-carousel","timestamp":"2026-05-10 20:12:31"}
+{"level":"info","message":"Unique articles after dedup: 6","service":"news-carousel","timestamp":"2026-05-10 20:12:31"}
+{"level":"info","message":"Image OK: \"90-degree overbridge controversy takes a...\"","service":"news-carousel","timestamp":"2026-05-10 20:12:31"}
+{"level":"info","message":"Image OK: \"Cinereous vulture rescued and treated in...\"","service":"news-carousel","timestamp":"2026-05-10 20:12:31"}
+{"level":"info","message":"Image OK: \"Mercury on the rise: Temp set to jump 4°...\"","service":"news-carousel","timestamp":"2026-05-10 20:12:31"}
+{"level":"info","message":"Image OK: \"BMC revamps 80 back-lanes ahead of Swach...\"","service":"news-carousel","timestamp":"2026-05-10 20:12:31"}
+{"level":"info","message":"Image OK: \"How safe is food you consume?...\"","service":"news-carousel","timestamp":"2026-05-10 20:12:31"}
+{"level":"info","message":"Saved 5 articles to raw-news.json","service":"news-carousel","timestamp":"2026-05-10 20:12:31"}
+{"level":"info","message":"Starting news summarization with OpenAI","service":"news-carousel","timestamp":"2026-05-10 20:12:31"}
+{"level":"info","message":"Summarizing article 1/5: \"90-degree overbridge controversy takes a new ...\"","service":"news-carousel","timestamp":"2026-05-10 20:12:31"}
+{"level":"warn","message":"OpenAI failed for article 1: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors. — using hard truncation","service":"news-carousel","timestamp":"2026-05-10 20:12:35"}
+{"level":"info","message":"Summarizing article 2/5: \"Cinereous vulture rescued and treated in MP r...\"","service":"news-carousel","timestamp":"2026-05-10 20:12:35"}
+{"level":"warn","message":"OpenAI failed for article 2: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors. — using hard truncation","service":"news-carousel","timestamp":"2026-05-10 20:12:38"}
+{"level":"info","message":"Summarizing article 3/5: \"Mercury on the rise: Temp set to jump 4°C ove...\"","service":"news-carousel","timestamp":"2026-05-10 20:12:38"}
+{"level":"warn","message":"OpenAI failed for article 3: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors. — using hard truncation","service":"news-carousel","timestamp":"2026-05-10 20:12:40"}
+{"level":"info","message":"Summarizing article 4/5: \"BMC revamps 80 back-lanes ahead of Swachh Sur...\"","service":"news-carousel","timestamp":"2026-05-10 20:12:40"}
+{"level":"warn","message":"OpenAI failed for article 4: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors. — using hard truncation","service":"news-carousel","timestamp":"2026-05-10 20:12:43"}
+{"level":"info","message":"Summarizing article 5/5: \"How safe is food you consume?...\"","service":"news-carousel","timestamp":"2026-05-10 20:12:43"}
+{"level":"warn","message":"OpenAI failed for article 5: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors. — using hard truncation","service":"news-carousel","timestamp":"2026-05-10 20:12:45"}
+{"level":"info","message":"Saved 5 processed articles to processed-news.json","service":"news-carousel","timestamp":"2026-05-10 20:12:45"}
+{"level":"info","message":"Starting slide generation","service":"news-carousel","timestamp":"2026-05-10 20:12:45"}
+{"level":"info","message":"Generating slide 1/5","service":"news-carousel","timestamp":"2026-05-10 20:12:46"}
+{"level":"info","message":"Generating slide 2/5","service":"news-carousel","timestamp":"2026-05-10 20:12:49"}
+{"level":"info","message":"Generating slide 3/5","service":"news-carousel","timestamp":"2026-05-10 20:12:51"}
+{"level":"info","message":"Generating slide 4/5","service":"news-carousel","timestamp":"2026-05-10 20:12:53"}
+{"level":"info","message":"Generating slide 5/5","service":"news-carousel","timestamp":"2026-05-10 20:12:55"}
+{"level":"info","message":"Successfully generated 5 slides in output/ directory","service":"news-carousel","timestamp":"2026-05-10 20:12:57"}

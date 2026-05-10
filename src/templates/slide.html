@@ -1,45 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Carousel Card – 1080×1350</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
-<style>
-  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carousel Card – 1080×1350</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <style>
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-  /* ── Outer page ── */
-  html, body {
-    width: 100%;
-    min-height: 100vh;
-    background: #e8edf3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Poppins', sans-serif;
-  }
+    /* ── Outer page ── */
+    html,
+    body {
+      width: 100%;
+      min-height: 100vh;
+      background: #e8edf3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Poppins', sans-serif;
+    }
 
-  /* Wrapper that scales the iframe on small screens */
-  .frame-wrap {
-    width: 1080px;
-    height: 1350px;
-     
-    overflow: hidden;
-    flex-shrink: 0;
-  }
+    /* Wrapper that scales the iframe on small screens */
+    .frame-wrap {
+      width: 1080px;
+      height: 1350px;
 
-  iframe {
-   width: 1456px;
-   height: 1832px;
-    border: none;
-    display: block;
-  }
-</style>
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+
+    iframe {
+      width: 1456px;
+      height: 1832px;
+      border: none;
+      display: block;
+    }
+  </style>
 </head>
+
 <body>
 
-<div class="frame-wrap">
-  <iframe id="card" srcdoc="
+  <div class="frame-wrap">
+    <iframe id="card" srcdoc="
 <!DOCTYPE html>
 <html lang='en'>
 <head>
@@ -198,7 +208,7 @@
   <!-- Photo -->
   <div class='img-section'>
     <img
-      src={{IMAGE}}
+      src={{IMAGE_URL}}
       alt='Students celebrating results'
     />
   </div>
@@ -232,7 +242,8 @@
 </body>
 </html>
 "></iframe>
-</div>
+  </div>
 
 </body>
+
 </html>

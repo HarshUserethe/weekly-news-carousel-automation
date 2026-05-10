@@ -1,0 +1,24 @@
+{
+  "city": "Bhopal",
+  "country": "IN",
+  "branding": {
+    "colors": {
+      "primary": "rgba(79, 70, 229, 0.9)",
+      "secondary": "rgba(255, 255, 255, 0.1)",
+      "text": "#FFFFFF",
+      "backgroundStart": "#0f172a",
+      "backgroundEnd": "#1e1b4b"
+    },
+    "logoText": "Bhopal Weekly Update",
+    "fontFamily": "'Inter', sans-serif"
+  },
+  "instagramHandle": "@lostinbhopal",
+  "timezone": "Asia/Kolkata",
+  "schedule": "0 8 * * 0",
+  "slideCount": 5,
+  "openaiModel": "gpt-3.5-turbo",
+  "outputDimensions": {
+    "width": 1080,
+    "height": 1350
+  }
+}

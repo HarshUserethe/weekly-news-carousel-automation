@@ -1,15 +1,27 @@
 {
-  "name": "lostinbhopal-node",
+  "name": "instagram-news-carousel-automation",
   "version": "1.0.0",
-  "main": "generate.js",
+  "description": "Production-ready Node.js automation system that generates weekly Instagram news carousel slides",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "scheduler": "node src/scheduler.js",
+    "fetch": "node src/fetchNews.js",
+    "summarize": "node src/summarize.js",
+    "slides": "node src/generate.js",
+    "generate": "npm run fetch && npm run summarize && npm run slides"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "puppeteer": "^24.15.0"
+    "@anthropic-ai/sdk": "^0.95.1",
+    "axios": "^1.6.8",
+    "cheerio": "^1.2.0",
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3",
+    "openai": "^4.33.0",
+    "puppeteer": "^22.6.5",
+    "rss-parser": "^3.13.0",
+    "winston": "^3.13.0"
   }
 }
