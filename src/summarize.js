@@ -2,16 +2,27 @@ require('dotenv').config();
 
 const fs = require('fs/promises');
 const path = require('path');
-const OpenAI = require('openai');
+const Groq = require('groq-sdk');
 const logger = require('./utils/logger');
 const config = require('../config.json');
 
-const HEADLINE_MAX = 55;  // characters
-const SUMMARY_MAX = 180; // characters
+const HEADLINE_MAX = 70; // characters
+const SUMMARY_MAX = 300; // characters
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY
-});
+function createGroqClient() {
+  if (!process.env.GROQ_API_KEY) {
+    throw new Error('Missing GROQ_API_KEY in environment variables');
+  }
+
+  return new Groq({
+    apiKey: process.env.GROQ_API_KEY
+  });
+}
+
+
+
+
+
 
 /**
  * Hard truncate with ellipsis — last resort only
@@ -22,11 +33,19 @@ function hardTruncate(text, max) {
 }
 
 /**
- * Ask GPT to produce a short headline, summary, and category.
+ * Ask Groq to produce a short headline, summary, and category.
  * Returns { headline, summary, category } all within char limits.
  */
-async function summarizeWithOpenAI(article) {
+async function summarizeWithGroq(article) {
+  const groq = createGroqClient();
+  const model = config.groqModel || 'llama-3.1-8b-instant';
+
+
+
+
+
   const prompt = `You are a professional news editor for a local city news app. Summarize the article below.
+
 
 Return ONLY a valid JSON object — no markdown, no explanation, no extra text.
 
@@ -43,34 +62,33 @@ Content: ${article.content || ''}
 Return format:
 {"headline": "...", "summary": "...", "category": "..."}`;
 
-  const response = await openai.chat.completions.create({
-    model: config.openaiModel || 'gpt-3.5-turbo',
+  const response = await groq.chat.completions.create({
+    model,
     messages: [{ role: 'user', content: prompt }],
-    response_format: { type: 'json_object' },
-    max_tokens: 300,
-    temperature: 0.4 // Lower = more consistent, factual output
+    temperature: 0.4
   });
 
-  const raw = response.choices[0].message.content;
+  const raw = response.choices?.[0]?.message?.content ?? '';
 
   // Strip accidental markdown fences just in case
   const clean = raw.replace(/```json|```/g, '').trim();
 
   const parsed = JSON.parse(clean);
 
-  // Safety net: hard truncate if GPT still goes over
   return {
     headline: hardTruncate(parsed.headline || article.title, HEADLINE_MAX),
-    summary: hardTruncate(parsed.summary || article.description, SUMMARY_MAX),
+    summary: hardTruncate(parsed.summary || article.description || article.content || article.title, SUMMARY_MAX),
     category: parsed.category || 'Update'
   };
 }
 
 async function summarizeNews() {
   try {
-    logger.info('Starting news summarization with OpenAI');
+    logger.info('Starting news summarization with Groq');
+
 
     const rawPath = path.join(__dirname, '../raw-news.json');
+
     const rawData = await fs.readFile(rawPath, 'utf8');
     const articles = JSON.parse(rawData);
 
@@ -81,9 +99,10 @@ async function summarizeNews() {
       logger.info(`Summarizing article ${i + 1}/${articles.length}: "${article.title?.substring(0, 45)}..."`);
 
       try {
-        const { headline, summary, category } = await summarizeWithOpenAI(article);
+        const { headline, summary, category } = await summarizeWithGroq(article);
 
         logger.info(`  ✔ headline: ${headline.length} chars | summary: ${summary.length} chars`);
+
 
         processedArticles.push({
           id: i + 1,
@@ -98,7 +117,8 @@ async function summarizeNews() {
       } catch (err) {
         // If OpenAI fails for one article, fall back to hard truncation so the
         // rest of the pipeline still works
-        logger.warn(`OpenAI failed for article ${i + 1}: ${err.message} — using hard truncation`);
+        logger.warn(`Groq failed for article ${i + 1}: ${err.message} — using hard truncation`);
+
 
         processedArticles.push({
           id: i + 1,
