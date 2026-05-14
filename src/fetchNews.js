@@ -9,7 +9,7 @@ const logger = require('./utils/logger');
 const config = require('../config.json');
 
 const GNEWS_API_KEY =
-  process.env.GNEWS_API_KEY || '59a48caaba4ae0fa3b991d86ddb54c39';
+  process.env.GNEWS_API_KEY || 'default-example-api-key';
 const GNEWS_BASE_URL = 'https://gnews.io/api/v4/search';
 
 /**
